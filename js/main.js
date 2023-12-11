@@ -1,6 +1,6 @@
 function acertijo(palabraOculta, oportunidades) { //Funcion declarada
   
-  alert("¡Bienvenido! ¿Te animás a decifrar nuestro acertijo?. Es la traducción de codificador y casa en inglés sin espacios.."); //Alert para empezar a interactuar con el usuario
+  alert("¡Bienvenido! ¿Te animás a descifrar nuestro acertijo?. Es la traducción de codificador y casa en inglés sin espacios.."); //Alert para empezar a interactuar con el usuario
   
   while (oportunidades > 0) { //Oportunidades mayor a cero
     
@@ -16,7 +16,7 @@ function acertijo(palabraOculta, oportunidades) { //Funcion declarada
     }
   }
   
-  if (oportunidades === 0) { // Agotadas las oportunidades se termina
+  if (oportunidades === 0) { // Agotadas las oportunidades se termina y muestra cual era la palabra oculta
     alert(`¡Agotaste las oportunidades!. La palabra secreta era "${palabraOculta}".`);
   }
 }
